@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviesApi.Persistence.Context
+namespace MovieApi.Persistence.Context
 {
     public class MovieContext : DbContext
     {

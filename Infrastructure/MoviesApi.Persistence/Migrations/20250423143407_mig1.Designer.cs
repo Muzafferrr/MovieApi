@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MoviesApi.Persistence.Context;
+using MovieApi.Persistence.Context;
 
 #nullable disable
 
-namespace MoviesApi.Persistence.Migrations
+namespace MovieApi.Persistence.Migrations
 {
     [DbContext(typeof(MovieContext))]
     [Migration("20250423143407_mig1")]
