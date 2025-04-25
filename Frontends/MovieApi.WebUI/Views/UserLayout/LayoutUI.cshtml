@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7 no-js" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en" class="no-js">
+
+<!-- movielist07:38-->
+@await Component.InvokeAsync("_UserLayoutHeadComponent")
+
+<body>
+    @await Component.InvokeAsync("_UserLayoutPreloaderComponent")
+    @await Component.InvokeAsync("_UserLayoutLoginModalComponent")
+    @await Component.InvokeAsync("_UserLayoutSignupModalComponent")
+    @await Component.InvokeAsync("_UserLayoutNavbarComponent")
+    @await Component.InvokeAsync("_UserLayoutHeroComponent")
+    @RenderBody()
+    @await Component.InvokeAsync("_UserLayoutFooterComponent")
+    <script src="/template/js/jquery.js"></script>
+    <script src="/template/js/plugins.js"></script>
+    <script src="/template/js/plugins2.js"></script>
+    <script src="/template/js/custom.js"></script>
+</body>
+
+<!-- movielist07:38-->
+</html>
